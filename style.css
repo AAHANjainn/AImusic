@@ -1,0 +1,51 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1594623930572-300a3011d9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGolMjBjb250cm9sbGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    
+}
+
+#heading{
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow : 3px 3px steelblue;
+}
+
+img{
+    width: 250px;
+    height:250px;
+}
+
+#img1{
+    float:right;
+    margin-right:10px;
+}
+#img2{
+    float:left;
+margin-left: 10px;
+}
+
+canvas{
+    border: 2px solid white;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px white;
+}
+
+#footer{
+    position: fixed;
+    /* width : 100%; */
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    bottom: 0px ;
+    padding: 10px;
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+}
+
+#button:hover{
+    background-color:lightcoral;
+}
